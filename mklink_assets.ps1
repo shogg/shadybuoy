@@ -1,0 +1,1 @@
+cmd /c mklink /d target\debug\assets C:\Users\fhtagn\Workspaces\rust\bevy_examples\shadertoy\assets
