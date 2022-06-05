@@ -21,7 +21,7 @@ fn sdCircle(p: vec2<f32>, r: f32) -> f32 {
 [[stage(fragment)]]
 fn fragment(input: VertexOutput) -> [[location(0)]] vec4<f32> {
     let p = input.uv - .5;
-    let d = sdCircle(p, .25 + .25*sin(f32(material.frame)/20.0));
+    let d = sdCircle(p, .25 + .25*sin(f32(material.frame)/40.0));
     return mix(
         vec4<f32>(1.0, 1.0, 1.0, 1.0),
         vec4<f32>(0.1, 0.1, 0.1, 1.0),

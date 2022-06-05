@@ -83,7 +83,6 @@ pub fn prepare_material(
         material.frame += 1;
         render_queue.write_buffer(&material_gpu.buffer, 0, material.as_std140().as_bytes());
     }
-    println!("Frame {:?}", material.frame);
 }
 
 #[derive(Debug, Clone, TypeUuid, AsStd140)]

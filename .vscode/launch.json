@@ -8,7 +8,7 @@
 			"name": "Starten",
 			"type": "cppvsdbg",
 			"request": "launch",
-			"program": "${workspaceFolder}/target/debug/shadertoy.exe",
+			"program": "${workspaceFolder}/target/debug/shadybuoy.exe",
 			"args": [],
 			"stopAtEntry": false,
 			"cwd": "${workspaceRoot}",
